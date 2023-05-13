@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tag {
+    @apply bg-neutral-800 text-zinc-100 px-3 py-1 font-semibold;
+  }
+  .footer-link {
+    @apply underline-offset-4 hover:underline text-lg capitalize;
+  }
+}

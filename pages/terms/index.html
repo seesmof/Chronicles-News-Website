@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <style type="text/tailwindcss">
+      @layer components {
+        .tag {
+          @apply bg-neutral-800 text-zinc-100 px-3 py-1 font-semibold hover:scale-95 duration-700 select-none;
+        }
+        .footer-link {
+          @apply underline-offset-4 hover:underline md:text-lg capitalize;
+        }
+        .testimony-image {
+          @apply object-cover w-full rounded-sm max-h-40 min-h-full;
+        }
+      }
+    </style>
+    <title>About Us</title>
+  </head>
+  <body>
+    <!-- MAIN PAGE CONTAINER -->
+    <div
+      class="bg-zinc-100 text-neutral-900 flex flex-col justify-between h-screen font-serif"
+    >
+      <!-- HEADER SECTION -->
+      <header
+        class="flex justify-between p-6 items-center h-20 border-b-[1px] border-neutral-700"
+      >
+        <!-- LOGO -->
+        <a href="/index.html" class="">
+          <img src="/img/logo.svg" alt="logo" class="w-10" />
+        </a>
+        <!-- SEARCH BUTTON -->
+        <a href="#" class="">
+          <img src="/img/search.svg" alt="search button" class="w-8" />
+        </a>
+      </header>
+
+      <!-- MAIN SECTION -->
+      <main class="items-center flex-1 w-full p-6 mx-auto overflow-y-scroll">
+        <div class="flex flex-col max-w-2xl mx-auto">
+          <article class="space-y-4 prose">
+            <h1>The Daily Chronicle Terms and Conditions</h1>
+            <p>
+              These terms and conditions ("Agreement") govern your use of The
+              Daily Chronicle website (the "Site") and any content, features, or
+              services offered on or through the Site. The Site is owned and
+              operated by The Daily Chronicle ("Company"). By using the Site,
+              you agree to be bound by this Agreement. If you do not agree to
+              these terms, you may not use the Site.
+            </p>
+            <h2>Changes to the Terms and Conditions</h2>
+            <p>
+              The Company reserves the right to modify this Agreement at any
+              time and without prior notice. Your use of the Site following any
+              such modification constitutes your agreement to follow and be
+              bound by the Agreement as modified. The last date these Terms and
+              Conditions were revised is set forth below.
+            </p>
+            <h2>Your Responsibility</h2>
+            <p>
+              It is your responsibility to ensure that your use of the Site
+              complies with all applicable laws and regulations. You agree not
+              to use the Site for any unlawful or abusive purposes, or in any
+              way that interferes with the proper functioning of the Site. You
+              also agree not to:
+            </p>
+            <ul>
+              <li>
+                Reproduce, duplicate, copy, sell, resell, or exploit any portion
+                of the Site or its content without the Company's express written
+                consent.
+              </li>
+              <li>
+                Use any robot, spider, scraper, or other automated means to
+                access the Site for any purpose without the Company's express
+                written consent.
+              </li>
+              <li>
+                Impersonate any person or entity, or falsely state or otherwise
+                misrepresent your affiliation with a person or entity.
+              </li>
+              <li>
+                Transmit any viruses, worms, defects, Trojan horses, or any
+                items of a destructive nature.
+              </li>
+            </ul>
+            <h2>Intellectual Property</h2>
+            <p>
+              The Site and its original content, features, and functionality are
+              owned by the Company and are protected by international copyright,
+              trademark, patent, trade secret, and other intellectual property
+              or proprietary rights laws. You agree not to copy, modify,
+              distribute, display, reproduce, publish, license, create
+              derivative works from, transfer, sell, or otherwise exploit any of
+              the Site's content without the Company's express written consent.
+            </p>
+            <h2>Disclaimer of Warranties</h2>
+            <p>
+              The Site is provided on an "as is" and "as available" basis. The
+              Company makes no representations or warranties of any kind,
+              express or implied, as to the operation of the Site or the
+              information, content, materials, or products included on the Site.
+              To the fullest extent permissible by applicable law, the Company
+              disclaims all warranties, express or implied, including implied
+              warranties of merchantability and fitness for a particular
+              purpose.
+            </p>
+            <h2>Limitation of Liability</h2>
+            <p>
+              The Company will not be liable for any damages of any kind arising
+              from the use of the Site, including, but not limited to, direct,
+              indirect, incidental, punitive, and consequential damages. Certain
+              state laws do not allow limitations on implied warranties or the
+              exclusion or limitation of certain damages. If these laws apply to
+              you, some or all of the above disclaimers, exclusions, or
+              limitations may not apply to you, and you may have additional
+              rights.
+            </p>
+            <h2>Governing Law</h2>
+            <p>
+              This Agreement shall be governed by and construed in accordance
+              with the laws of the State of Washington, without giving effect to
+              any principles of conflicts of law. You agree that any action at
+              law or in equity arising out of or relating to these terms shall
+              be filed only in the state or federal courts located in Lewis
+              County, Washington, and you hereby consent and submit to the
+              personal jurisdiction of such courts for the purposes of
+              litigating any such action.
+            </p>
+            <h2>Contact Information</h2>
+            <p>
+              If you have any questions about this Agreement, please contact us
+              using our
+              <a href="/pages/contact-us/index.html">contact form</a>
+            </p>
+          </article>
+        </div>
+      </main>
+
+      <!-- FOOTER SECTION -->
+      <footer
+        class="flex justify-start p-6 items-center h-20 border-t-[1px] border-neutral-700"
+      >
+        <div class="flex flex-row gap-6">
+          <a href="/pages/contact-us/index.html" class="footer-link">
+            contact us
+          </a>
+          <a href="/pages/about-us/index.html" class="footer-link">
+            about us
+          </a>
+          <a href="/pages/privacy-policy/index.html" class="footer-link">
+            privacy policy
+          </a>
+          <a href="/pages/terms/index.html" class="footer-link">
+            terms & conditions
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
