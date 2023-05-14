@@ -23,9 +23,9 @@ This project is a news website built with HTML and TailwindCS that features some
 
 ## Screenshots
 
-![](./img/)
+![](./img/msedge_imdy6HxhHt.png)
 
-![](./img/)
+![](./img/msedge_hEA0XnWe1I.png)
 
 ## Built with
 
