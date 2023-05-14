@@ -13,10 +13,16 @@
     <style type="text/tailwindcss">
       @layer components {
         .tag {
-          @apply bg-neutral-800 text-zinc-100 px-3 py-1 font-semibold hover:scale-95 duration-700 select-none;
+          @apply bg-neutral-800 text-zinc-100 px-3 py-1 font-semibold hover:scale-95 duration-700 select-none text-sm sm:text-base;
         }
         .footer-link {
           @apply underline-offset-4 hover:underline text-lg capitalize;
+        }
+        .article-name {
+          @apply text-2xl font-bold capitalize;
+        }
+        .article-date {
+          @apply text-neutral-700 pb-1 text-sm sm:text-base;
         }
       }
     </style>
@@ -29,7 +35,7 @@
     >
       <!-- HEADER SECTION -->
       <header
-        class="flex justify-between p-6 items-center h-20 border-b-[1px] border-neutral-700"
+        class="flex justify-between sm:p-6 p-3 items-center sm:h-20 border-b-[1px] border-neutral-700"
       >
         <!-- LOGO -->
         <a href="/index.html" class="">
@@ -42,14 +48,16 @@
       </header>
 
       <!-- MAIN SECTION -->
-      <main class="items-center flex-1 w-full p-6 mx-auto overflow-y-scroll">
+      <main
+        class="sm:p-6 items-center flex-1 w-full p-3 mx-auto overflow-y-scroll"
+      >
         <div class="flex flex-col max-w-4xl gap-10 mx-auto">
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 12, 2023</div>
+            <div class="article-date">May 12, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Future-of-AI-How-Machine-Learning-is-Changing-the-World/index.html"
                 class="underline-offset-4 hover:underline"
@@ -58,7 +66,7 @@
               </a>
             </h2>
             <!-- TAGS -->
-            <div class="flex flex-row flex-wrap gap-2 pt-4">
+            <div class="sm:pt-4 flex flex-row flex-wrap gap-2 pt-2">
               <div class="tag">AI</div>
               <div class="tag">impact of AI</div>
               <div class="tag">machine learning</div>
@@ -68,9 +76,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 11, 2023</div>
+            <div class="article-date">May 11, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/A-Beginners-Guide-to-Coding-Learning-the-Basics-of-Programming/index.html"
                 class="underline-offset-4 hover:underline"
@@ -90,9 +98,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 10, 2023</div>
+            <div class="article-date">May 10, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Rise-of-NFTs-Understanding-the-Hype-Behind-Digital-Art-Collectibles/index.html"
                 class="underline-offset-4 hover:underline"
@@ -111,9 +119,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 9, 2023</div>
+            <div class="article-date">May 9, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Dark-Side-of-Social-Media-Exploring-the-Impact-of-Online-Harassment/index.html"
                 class="underline-offset-4 hover:underline"
@@ -131,9 +139,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 8, 2023</div>
+            <div class="article-date">May 8, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Latest-Advancements-in-Virtual-Reality-How-VR-is-Transforming-Industries/index.html"
                 class="underline-offset-4 hover:underline"
@@ -151,9 +159,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 7, 2023</div>
+            <div class="article-date">May 7, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Importance-of-Cybersecurity-Tips-for-Keeping-Your-Data-Safe-Online/index.html"
                 class="underline-offset-4 hover:underline"
@@ -171,9 +179,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 6, 2023</div>
+            <div class="article-date">May 6, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Ethics-of-Big-Data-Balancing-Innovation-with-Privacy-Concerns/index.html"
                 class="underline-offset-4 hover:underline"
@@ -192,9 +200,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 5, 2023</div>
+            <div class="article-date">May 5, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Power-of-Cloud-Computing-How-Cloud-Technology-is-Revolutionizing-Business-Operations/index.html"
                 class="underline-offset-4 hover:underline"
@@ -212,9 +220,9 @@
           <!-- ARTICLE CONTAINER -->
           <article class="flex flex-col items-start max-w-4xl">
             <!-- TIME -->
-            <div class="text-neutral-700 pb-1">May 5, 2023</div>
+            <div class="article-date">May 5, 2023</div>
             <!-- HEADING -->
-            <h2 class="text-3xl font-bold capitalize">
+            <h2 class="article-name">
               <a
                 href="./pages/The-Pros-and-Cons-of-5G-Technology-Is-it-Worth-the-Hype/index.html"
                 class="underline-offset-4 hover:underline"
@@ -233,7 +241,7 @@
 
       <!-- FOOTER SECTION -->
       <footer
-        class="flex justify-start p-6 items-center h-20 border-t-[1px] border-neutral-700"
+        class="sm:flex justify-start p-6 hidden items-center h-20 border-t-[1px] border-neutral-700"
       >
         <div class="flex flex-row gap-6">
           <a href="/pages/contact-us/index.html" class="footer-link">
