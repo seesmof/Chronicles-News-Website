@@ -19,7 +19,7 @@
 
 ## About
 
-This project is a news website built with HTML and TailwindCS that features some articles and a nice responsive design. It is made for a fictional news company called The Daily Chronicle and contains articles mainly about tech and AI. Fully functional, fully responsive
+This project is a news website built with HTML and TailwindCSS that features some articles and a nice responsive design. It is made for a fictional news company called The Daily Chronicle and contains articles mainly about tech and AI. Fully functional, fully responsive
 
 ## Screenshots
 
